@@ -41,8 +41,5 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
 
 ### 2. **Iniciar projeto**
 
-[Prompt] `node app.js`
-
-
 ```bash
-node -v
+node app.js
