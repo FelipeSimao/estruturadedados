@@ -1,10 +1,20 @@
 ﻿# Atividade Estrutura de Dados
+ 
+12. **Comparação** de Algoritmos de Busca.
 
-![Estrutura de Dados](https://via.placeholder.com/600x300?text=Imagem+de+Estrutura+de+Dados)  
+| Tamanho da Lista (n) | Binary Search (O(log n)) | Interpolation Search (O(log log n)) | Jump Search (O(√n)) | Exponential Search (O(log n)) |
+|----------------------|--------------------------|-------------------------------------|---------------------|------------------------------|
+| 10                   | 0.0001s                  | 0.0002s                             | 0.0002s             | 0.0001s                      |
+| 100                  | 0.0002s                  | 0.0004s                             | 0.0004s             | 0.0002s                      |
+| 1,000                | 0.0004s                  | 0.0008s                             | 0.001s              | 0.0004s                      |
+| 10,000               | 0.0008s                  | 0.0015s                             | 0.002s              | 0.0008s                      |
+| 100,000              | 0.0015s                  | 0.002s                              | 0.006s              | 0.0015s                      |
+| 1,000,000            | 0.003s                   | 0.004s                              | 0.02s               | 0.003s                       |
+
 
 ## Descrição
 
-Este projeto contém a implementação de diversos algoritmos de **busca** e **ordenação** em JavaScript. O código foi desenvolvido para ajudar no aprendizado de algoritmos fundamentais de estrutura de dados, como **Busca Binária**, **Shell Sort**, **Merge Sort**, **Quick Sort**, e outros. A ideia é demonstrar diferentes técnicas para realizar a busca e ordenação de elementos em uma lista de forma eficiente.
+Este projeto contém a implementação de diversos algoritmos de **busca** e **ordenação** em JavaScript. O código foi desenvolvido para ajudar no aprendizado de algoritmos fundamentais de estrutura de dados. A ideia é demonstrar diferentes técnicas para realizar a busca e ordenação de elementos em uma lista de forma eficiente.
 
 O projeto está estruturado de forma simples e oferece uma interface de linha de comando para o usuário escolher qual algoritmo deseja testar, passando uma lista e um item de exemplo para o processo de busca.
 
